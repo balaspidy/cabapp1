@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.testdouble</groupId>
+	<artifactId>test-training</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.3</version>
+	<name>test-training</name>
+        <url>https://github.com/testdouble/contributing-tests/wiki</url>
+	<modules>
+          <module>example</module>
+	  <module>example-cucumber</module>		
+	</modules>
+
+
+	<distributionManagement>
+	  <snapshotRepository>
+	    <id>snapshot</id>
+	    <url>http://ec2-52-15-120-134.us-east-2.compute.amazonaws.com:8081/repository/snapshot/</url>
+	  </snapshotRepository>
+	  <repository>
+	    <id>release</id>
+	    <url>http://ec2-52-15-120-134.us-east-2.compute.amazonaws.com:8081/repository/release/</url>
+	  </repository>
+	</distributionManagement>
+
+</project>
+
+ 
+ 
+ 
